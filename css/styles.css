@@ -10070,8 +10070,7 @@ h3 {
   width: 6.39rem;
   height: 6.39rem;
   font-size: 3.80rem;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin: 8px;
   justify-content: center;
   align-items: center;
   color: white;
@@ -10172,7 +10171,15 @@ h3 {
 }
 .masthead .masthead-avatar {
   width: 17.5rem;
-  margin-top: -15px;
+  margin-top: 7px;
+}
+
+.avatar-cover{
+  width: 18.2rem;
+  height: 18.35rem;
+  border-radius: 50%;
+  background: linear-gradient(to bottom , rgb(255, 0, 0), purple);
+  margin-bottom: 3rem !important;
 }
 
 @media (min-width: 992px) {
