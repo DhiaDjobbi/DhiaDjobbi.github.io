@@ -3964,12 +3964,12 @@ input[type=button].btn-block {
 }
 
 .nav-pills .nav-link {
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #1abc9c;
+  background-color: #453be7;
 }
 
 .nav-fill .nav-item {
@@ -4459,6 +4459,8 @@ input[type=button].btn-block {
 .card-img-bottom {
   flex-shrink: 0;
   width: 100%;
+  padding: 10px 50px 10px 50px;
+
 }
 
 .card-img,
@@ -4681,6 +4683,10 @@ input[type=button].btn-block {
   border-bottom-right-radius: 0.25rem;
 }
 
+.no-deco{
+  text-decoration: none;
+  color: black;
+}
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -10034,6 +10040,10 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.center-tabs {
+  display: flex;
+  justify-content: center;
 }
 .divider-custom .divider-custom-line {
   width: 100%;
